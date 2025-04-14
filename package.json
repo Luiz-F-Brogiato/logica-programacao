@@ -1,0 +1,20 @@
+{
+  "name": "logic",
+  "version": "1.0.0",
+  "description": "Olá",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luiz-F-Brogiato/logica-programacao.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luiz-F-Brogiato/logica-programacao/issues"
+  },
+  "homepage": "https://github.com/Luiz-F-Brogiato/logica-programacao#readme"
+}
