@@ -54,6 +54,8 @@ let options:statusUserEnum = statusUserEnum.pending
 
 let obs:any = true;
 
+//---------------------------------------------------------------------
+
 //Variáveis
 
 let variavelMutavel = "Esta é uma variável que pode mudar de valor";
@@ -61,4 +63,13 @@ console.log(variavelMutavel)
 
 const variavelImutavel = "Esta variável não muda de valor, por isso seu nome é constante"
 console.log(variavelImutavel)
+
+//---------------------------------------------------------------------
+
+//Variáveis indexadas
+
+let fusca = ['1300L', '1600', 'Pé de boi', 'Split Windows', '1500', '1300']
+console.log(fusca[2].length);  
+console.log(fusca[fusca.length -1]);
+console.log(fusca.at(-1));
 
