@@ -53,3 +53,12 @@ let options:statusUserEnum = statusUserEnum.pending
 //Any - qualquer tipo de dado, não recomendadado
 
 let obs:any = true;
+
+//Variáveis
+
+let variavelMutavel = "Esta é uma variável que pode mudar de valor";
+console.log(variavelMutavel)
+
+const variavelImutavel = "Esta variável não muda de valor, por isso seu nome é constante"
+console.log(variavelImutavel)
+
