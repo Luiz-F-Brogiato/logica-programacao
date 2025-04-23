@@ -73,3 +73,30 @@ console.log(fusca[2].length);
 console.log(fusca[fusca.length -1]);
 console.log(fusca.at(-1));
 
+//---------------------------------------------------------------------
+
+//Variáveis indexadas
+
+/*     let fusca = ['1300L', '1600', 'Pé de boi', 'Split Windows', '1500', '1300']
+    console.log(fusca[2].length);
+    console.log(fusca[fusca.length - 1]);
+    console.log(fusca.at(-1)); */
+
+//---------------------------------------------------------------------
+
+let montadoras = [
+    ["Volkswagen", "Fusca", "Gol", "Golf", "Passat", "Jetta", "Tiguan", "Polo", "Up!", "T-Cross", "Amarok"],
+    ["Porsche", "911", "Cayman", "Boxster", "Panamera", "Macan", "Cayenne", "Taycan", "718", "Carrera", "Spyder"],
+    ["Audi", "A1", "A3", "A4", "A5", "A6", "A7", "A8", "Q3", "Q5", "Q7"],
+    ["Mercedes-Benz", "Classe A", "Classe B", "Classe C", "Classe E", "Classe S", "CLA", "GLA", "GLC", "GLE", "GLS"]
+]
+
+montadoras.forEach((m, index) => {
+    console.log(montadoras[index][0])
+    let carros: string = "";
+    m.forEach((modelo, index) => {
+        if (index > 0 )  {
+            carros += modelo + ", ";
+        }
+    })
+})
