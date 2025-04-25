@@ -100,3 +100,16 @@ montadoras.forEach((m, index) => {
         }
     })
 })
+
+
+//Desafio das empresas aéreas
+
+let nacionaisAereas = [
+    ["Gol"],
+    ["Latam"],
+    ["Azul"],
+]
+
+nacionaisAereas.forEach((n, index) => {
+    console.log(n[index])
+})
