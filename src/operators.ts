@@ -37,3 +37,13 @@ if (price === "100") {
     console.log("Está caro");
 } === compara o tipo também  */
 
+//Operadores lógicos
+
+if (price <= 100 && price > 0) {
+    console.log("O valor é menor que 1000, o valor é : ", price);
+
+}
+if (price <= 100 || price < 2000) {
+    console.log("O valor é menor que 1000 ou menor que 2000, o valor é : ", price);
+
+}
