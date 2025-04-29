@@ -44,6 +44,6 @@ if (price <= 100 && price > 0) {
 
 }
 if (price <= 100 || price < 2000) {
-    console.log("O valor é menor que 1000 ou menor que 2000, o valor é : ", price);
+    console.log("O valor é menor que 1000 ou menor que 2000$, o valor é : ", price);
 
 }
