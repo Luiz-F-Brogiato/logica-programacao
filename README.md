@@ -1,4 +1,4 @@
-#  Lógica de Prgoramação
+#  Lógica de Progoramação
 
 > Projeto desenvolvido com o objetivo de treinar lógica de programação e aprimorar habilidades com JavaScript, HTML e CSS.
 
